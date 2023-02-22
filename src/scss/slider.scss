@@ -1,0 +1,149 @@
+.slider {
+  padding: 0;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 35px;
+  max-width: 1152px;
+  position: relative;
+
+  &__block {
+    position: relative;
+
+    &_nameCompany {
+      position: absolute;
+      top: 34px;
+      max-width: 213px;
+      height: 31px;
+      padding: 5px 0;
+      background: #FFFFFF;
+      font-weight: 700;
+      font-size: 20px;
+      color: #000000;
+      margin: 0;
+    }
+
+    &_desc {
+      position: absolute;
+      width: 243px;
+      height: 37px;
+      background: #FFFFFF;
+      border: 1px solid #8A00BA;
+      padding: 12px 34px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #000000;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    position: absolute;
+    top: calc(50% + 11px);
+    width: 100%;
+    justify-content: space-between;
+
+    img:hover {
+      cursor: pointer;
+    }
+
+    div {
+      width: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+.slick-track {
+  display: flex!important;
+  gap: 67px;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+  height: 419px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__dots_container {
+
+  }
+
+  &__dots {
+
+  }
+
+  &__dot {
+
+  }
+
+
+
+
+}
+
+.slick-dots {
+  position: relative;
+  bottom: 0!important;
+
+  .slider__dots_container_block {
+    position: absolute;
+    width: 100%;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      //gap: 24px;
+
+      li {
+        width: 32px;
+        height: 32px;
+        margin: 0 0 0 24px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 32px;
+        border-radius: 4px;
+        color: #FFFFFF;
+
+        &:last-child {
+          margin: 0 24px 0 24px!important;
+        }
+      }
+    }
+  }
+
+  button {
+    border: none;
+    width: 101px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #191919;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.slider__dot {
+
+}
+
+.slick-active {
+  background: #FFFFFF;
+  color: #000000!important;
+}

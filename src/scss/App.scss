@@ -1,0 +1,13 @@
+@import 'mainPage.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'mainContent.scss';
+@import 'button.scss';
+@import 'mainContentSlider.scss';
+@import "slider";
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
